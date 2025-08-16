@@ -14,6 +14,13 @@ It was built around the PortSwigger Web Security Academy lab:
 
 ---
 
+## Requirements
+- Python 3.x
+- Install dependencies with:
+  ```bash
+  pip install -r requirements.txt
+
+
 ## 🚀 Usage
 
 1. Clone the repo:
